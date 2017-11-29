@@ -1,0 +1,8 @@
+ #from galaxy
+- src: ansiblebit.oracle-java
+- src: SimpliField.network-hosts
+
+# from GitHub, overriding the name and specifying a specific tag
+- src: git+https://github.com/elastic/ansible-elasticsearch.git
+  version: 2.x
+  name: ansible-elasticsearch-2-x
